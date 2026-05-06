@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav>
+    <div>Bo Min's Portfolio</div>
+    <ul>
+        <li><a href="a"> About Me </a></li>
+        <li><a href="service"> Services </a></li>
+        <li><a href="portfolio"> Portfolio </a></li>
+        <li><a href="contact"> Contact </a></li>
+    </ul>
+    </nav>
+    
+    <header>
+    <div>
+        <p>MULTIMEDIA STUENT</p>
+        <h1>디자인과 영상으로 아이디어를 표현합니다.</h1>
+        <p>패키지, 포스터등 시각 디자인 작업을 주로 합니다. 포트폴리오를 통해 저희 작업 스타일을 확인하고 편하게 문의해 주세요.</p>
+
+        <div>
+            <a href="#">포트폴리오 보기</a>
+            <a href="#">의뢰하기</a>
+        </div>
+    </div>
+    </header>
+
+    <section id="a">
+        <h2>About Me</h2>
+        <p>안녕하세요 저는 멀티미디어를 전공하여 다양한 디자인을 제작하고 있습니다.
+            감각적인 시각 표현과 깔끔한 구성에 관심이 있으며, 디자인을 통해 메시지를 효과적으로 전달하는 것을 목표로 합니다.
+        </p>
+
+        <div>
+            <span>Photoshop</span>
+            <span>Illustrator</span>
+            <span>Indesign</span>
+            <span>Premiere Pro</span>
+        </div>
+    </section>
+
+    <section id="service">
+        <h2>Services</h2>
+        <ul>
+            <li>영상 편집</li>
+            <li>홍보물 제작</li>
+            <li>패키지 제작</li>
+            <li>웹 페이지 제작</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+
+        <div class="portfolio-grid">
+            <div class="card">
+                <div>POSTER</div>
+                <h3>포스터 디자인</h3>
+                <p>학교 행사와 홍보 프로젝트를 위한 포스터 디자인 작업</p>
+                <a href="#">자세히 보기</a>
+            </div>
+
+            <div class="card">
+                <div>PACKAGE</div>
+                <h3>패키지 디자인</h3>
+                <p>각종 브랜드 패키지 리디자인 작업</p>
+            </div>
+
+            <div class="card">
+                <div>WEB</div>
+                <h3>웹페이지 제작</h3>
+                <p>개인 블로그 및 포트폴리오 사이트 작업</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact"> 
+        <h2>Contact</h2>
+        <form>
+            <label for="name">이름</label>
+            <input type="text" name="name" placeholder="이름을 입력하세요.">
+
+            <label for="email">이메일</label>
+            <input type="email" name="email" placeholder="이메일을 입력하세요.">
+
+            <label for="type">문의 종류</label>
+            <select name="type">
+                <option>패키지 제작</option>
+                <option>포스터 제작</option>
+                <option>영상 편집 제작</option>
+                <option>웹 페이지 제작</option>
+            </select>
+
+            <label for="message">문의 내용</label>
+            <textarea name="message" placeholder="문의할 내용을 입력하세요." rows="5">
+            </textarea>
+
+            <input type="submit" value="보내기">
+        </form>
+    </section>
+
+
+    <footer>
+        <p>2026 My Portfolio, All rights Reseved</p>
+    </footer>
+
+</body>
+</html>
