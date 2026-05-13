@@ -1,0 +1,51 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding:18px 40px;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgb(174, 104, 239);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(99, 99, 252);
+}
+
+.hero {
+    background-color: rgb(99, 99, 252);
+    color: whitesmoke;
+    padding: 100px 20px;
+    text-align: center;
+}
+    
+.small-title {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.hero-description {
+    font-size: 18px;
+    width: 650px;
+    margin: 0 auto 30px auto;
+}
